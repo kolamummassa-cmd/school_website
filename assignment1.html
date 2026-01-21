@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Website</title>
+    <style>
+        h1{
+            color: blue;
+            text-align: center;
+            text-decoration: underline;
+
+        }
+        .courses{
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            text-align: left;
+            text-decoration: none;
+        }
+        h3{
+            color: red;
+            text-decoration: underline;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+
+        }
+        th,td{
+            border: 2px solid black;
+        }
+        form{
+        background-color: aqua;
+            color: orangered;
+            padding: 25px;
+            width: 400px;
+            border-radius: 20px;
+            display: block;
+            margin: 20px auto;
+        }
+        .ref{
+            display: flex;
+            justify-content: right;
+            justify-items: center;
+
+        }
+        a{
+            list-style-type: none;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+            border-radius:5px;
+            transition: 0.5s;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="ref">
+    <a href="">HOME</a>
+    <a href="">ABOUT</a>
+    <a href="">COURSES</a>
+    <a href="">CONTACT</a>
+</div>
+<hr>
+<h1>DAYSTAR UNIVERSITY</h1>
+
+<div class="courses">
+<h3>COURSES OFFERED BY THE UNIVERSITY</h3>
+<ul>
+    <li>Medicine</li>
+    <li>Computer science</li>
+    <li>Building and construction</li>
+    <li>Nursing</li>
+</ul>
+    </div>
+<div class="table">
+<h3>TABLE DETAILS</h3>
+<table>
+
+    <tr>
+        <th>COURSE NAME</th>
+        <th>DURATION</th>
+        <th>FEES</th>
+    </tr>
+    <tr>
+        <td>Medicine</td>
+        <td>6 years</td>
+        <td>2.5M per year</td>
+    </tr>
+    <tr>
+        <td>Computer science</td>
+        <td>4 years</td>
+        <td>1.5M per year</td>
+    </tr>
+    <tr>
+        <td>Building and construction</td>
+        <td>5 years</td>
+        <td>2M per year</td>
+    </tr>
+    <tr>
+        <td>Nursing</td>
+        <td>4.5 years</td>
+        <td>1M per year</td>
+    </tr>
+</table>
+    </div>
+<form>
+    <div class="registration">
+    <h3>REGISTRATION FORM</h3>
+    <label>Full Name:</label><br>
+    <input type="text"><br><br>
+
+    <label>Email Address:</label><br>
+    <input type="email"><br><br>
+
+    <label>Course Selection:</label><br>
+    <select>
+        <option>Medicine</option>
+        <option>Computer science</option>
+        <option>Building and construction</option>
+        <option>Nursing</option>
+    </select><br><br>
+    <label>Comment</label><br>
+    <textarea cols="30" rows="10"></textarea>
+        </div>
+</form>
+</body>
+</html>
